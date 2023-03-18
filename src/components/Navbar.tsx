@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Logo from '../assets/yo.jpg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
@@ -10,8 +10,20 @@ const Navbar: React.FC = () => {
 		setIsOpen(!isOpen);
 	};
 
+	useEffect(() => {
+		const handleScroll = () => {
+			// If the menu is open, close it when the user scrolls
+			if (isOpen) {
+				setIsOpen(false);
+			}
+		};
+		window.addEventListener('scroll', handleScroll);
+		// Remove the event listener when the component unmounts
+		return () => window.removeEventListener('scroll', handleScroll);
+	}, [isOpen]);
+
 	return (
-		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 sticky w-full'>
+		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-sm'>
 			<div className='text-lg font-bold md:py-0 py-4'>
 				<img src={Logo} alt='Logo' className='w-12 rounded-full' />
 			</div>
@@ -35,7 +47,7 @@ const Navbar: React.FC = () => {
 			<ul
 				className={`${
 					isOpen ? 'block' : 'hidden'
-				} md:px-2 md:flex md:space-x-2 absolute md:relative top-full md:top-auto left-0 right-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary z-50`}
+				} md:px-2 md:flex md:space-x-2 absolute md:relative top-full md:top-auto left-0 right-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary md:bg-transparent md:dark:bg-transparent z-50`}
 			>
 				<li className='flex md:inline-flex p-4 items-center justify-center'>
 					<a href='#'>

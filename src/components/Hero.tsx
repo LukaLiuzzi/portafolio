@@ -3,7 +3,7 @@ import { FiArrowDown } from 'react-icons/fi';
 
 const Hero: React.FC = () => {
 	return (
-		<section className='mt-16 px-4'>
+		<section className='mt-16'>
 			<div className='flex justify-center items-center flex-col gap-6 font-bold max-w-lg m-auto w-full'>
 				<h2 className='text-2xl'>
 					Soy Luka <span>👋</span>

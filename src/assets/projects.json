@@ -1,0 +1,16 @@
+[
+    {
+        "key": 1,
+        "title": "Camino a casa",
+        "description": "Camino a casa es una aplicación que te permite saber el tiempo que te queda para llegar a casa, en base a tu ubicación actual y la dirección de destino que hayas ingresado.",
+        "img": "https://dummyimage.com/600x400/000/fff",
+        "github": "https://lukaliuzzi.github.io/camino-a-casa/",
+        "url": "https://www.google.com"
+    },
+    {
+        "key": 2,
+        "title": "Rockandrolls",
+        "description": "Rockandrolls es una aplicación que te permite saber el tiempo que te queda para llegar a casa, en base a tu ubicación actual y la dirección de destino que hayas ingresado.",
+        "img": "https://dummyimage.com/600x400/000/fff"
+    }
+]
