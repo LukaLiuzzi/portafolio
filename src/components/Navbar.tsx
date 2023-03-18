@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
 	}, [isOpen]);
 
 	return (
-		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-sm'>
+		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-md'>
 			<div className='text-lg font-bold md:py-0 py-4'>
 				<img src={Logo} alt='Logo' className='w-12 rounded-full' />
 			</div>

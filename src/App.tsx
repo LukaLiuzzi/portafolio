@@ -12,9 +12,12 @@ export default function App() {
 				<Navbar />
 				<Layout>
 					<Hero />
-					<About />
-					<Skills />
-					<Projects />
+					<main>
+						<About />
+						<Skills />
+						<Projects />
+					</main>
+					<footer></footer>
 				</Layout>
 			</header>
 		</>

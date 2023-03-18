@@ -10,7 +10,7 @@ const About: React.FC = () => {
 				similique impedit doloremque error harum explicabo blanditiis,
 				consequuntur ea numquam excepturi ipsum. At.
 			</p>
-			<button className='mt-6 dark:bg-green-300 px-4 py-2 rounded-md text-xl dark:text-dark-primary font-bold uppercase'>
+			<button className='mt-6 dark:bg-green-300 px-4 py-2 rounded-md text-base dark:text-dark-primary font-bold uppercase'>
 				Descargar CV
 			</button>
 
