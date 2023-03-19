@@ -13,7 +13,7 @@ const Studies: React.FC = () => {
 				<TimelineCard
 					title='Carrera Desarrollador Full Stack'
 					place='CoderHouse'
-					description='Desarrollo de aplicaciones web y móviles, diseño de interfaces, optimización de SEO y manejo de bases de datos. optimización de SEO y manejo de bases de datos.'
+					description='Carrera de Desarrollador Full Stack en CoderHouse. Aprendizaje de tecnologías como Javascript, React, Node, Express, MongoDB, entre otras.'
 					date='2021 - 2023'
 					icon={<ImBooks />}
 					background='lightblue'

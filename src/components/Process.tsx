@@ -26,7 +26,7 @@ const Process: React.FC = () => {
 				alt='Investigacion'
 				title='Investigacion'
 				svg={researchSvg}
-				description='Investigar sobre el cliente y su industria para entender mejor sus necesidades.'
+				description='Investigar sobre el cliente, su industria y su competencia para desarrollar un mejor producto.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
@@ -58,7 +58,7 @@ const Process: React.FC = () => {
 				alt='Produccion'
 				title='Produccion'
 				svg={productionSvg}
-				description='Lanzar el producto final.'
+				description='Lanzar el producto final al mercado.'
 			/>
 		</SectionWrapper>
 	);

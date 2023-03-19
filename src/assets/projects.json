@@ -2,15 +2,32 @@
     {
         "key": 1,
         "title": "Camino a casa",
-        "description": "Camino a casa es una aplicación que te permite saber el tiempo que te queda para llegar a casa, en base a tu ubicación actual y la dirección de destino que hayas ingresado.",
-        "img": "https://dummyimage.com/600x400/000/fff",
-        "github": "https://lukaliuzzi.github.io/camino-a-casa/",
-        "url": "https://www.google.com"
+        "description": "Una aplicacion para facilitar la adopcion de mascotas.",
+        "img": "/moviefan.png",
+        "url": "https://www.caminoacasa.ar"
     },
     {
         "key": 2,
-        "title": "Rockandrolls",
-        "description": "Rockandrolls es una aplicación que te permite saber el tiempo que te queda para llegar a casa, en base a tu ubicación actual y la dirección de destino que hayas ingresado.",
-        "img": "https://dummyimage.com/600x400/000/fff"
+        "title": "Aymi lova",
+        "description": "Una pagina web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo.",
+        "img": "/aymilova.png",
+        "github": "https://github.com/LukaLiuzzi/aymilova",
+        "url": "https://www.aymilova.com.ar"
+    },
+    {
+        "key": 3,
+        "title": "RockandDolls",
+        "description": "RockandDolls es un ecommerce desarrollado para una clienta que tiene un emprendimiento de ropa.",
+        "img": "/rockanddolls.png",
+        "github": "https://github.com/LukaLiuzzi/rockanddolls-react",
+        "url": "https://galushowroom.web.app/"
+    },
+    {
+        "key": 4,
+        "title": "MovieFan",
+        "description": "MovieFan es una pagina web que muestra peliculas catalogadas por genero y permite buscar por nombre. Tambien permite ver el trailer de la pelicula si esta disponible.",
+        "img": "/moviefan.png",
+        "github": "https://github.com/LukaLiuzzi/moviefan",
+        "url": "https://lukaliuzzi.github.io/moviefan/"
     }
 ]

@@ -18,8 +18,9 @@ const Hero: React.FC = () => {
 				</h1>
 
 				<p className='text-lg text-center'>
-					Desarrollador web con experiencia en el desarrollo de aplicaciones
-					web, aplicaciones móviles y aplicaciones de escritorio.
+					Desarrollador web full stack especializado en la creación de
+					soluciones técnicas que satisfacen las necesidades de los usuarios
+					finales. Comprometido con la calidad y la colaboración en equipo.
 				</p>
 
 				<div className='flex items-center gap-4'>

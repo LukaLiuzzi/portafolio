@@ -17,25 +17,31 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	url,
 }) => {
 	return (
-		<div className='max-w-sm bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
-			<a href='#'>
-				{/* <img className='rounded-t-lg' src={img} alt={`Imagen de ${title}`} /> */}
-				<iframe src={url}></iframe>
+		<div className='bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col'>
+			<a href='#' className='flex-shrink-0'>
+				<img
+					className='rounded-t-lg object-fill w-full h-48'
+					src={img}
+					alt={`Imagen de ${title}`}
+				/>
 			</a>
-			<div className='p-5'>
-				<a href='#'>
-					<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-						{title}
-					</h5>
-				</a>
-				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-					{description}
-				</p>
+			<div className='flex flex-col justify-between flex-1 p-5'>
+				<div className='flex-1'>
+					<a href='#'>
+						<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+							{title}
+						</h5>
+					</a>
+					<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+						{description}
+					</p>
+				</div>
 				<div className='flex gap-4 justify-center items-center'>
 					{github && (
 						<a
 							href={github}
-							className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:ring-4 focus:outline-none focus:ring-dark-secondary dark:bg-dark-primary dark:hover:bg-dark-accent dark:focus:bg-dark-secondary'
+							target='_blank'
+							className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:outline-none dark:bg-dark-primary dark:hover:bg-dark-accent'
 						>
 							Ver codigo
 							<AiFillGithub className='w-5 h-5 ml-2 -mr-1' />
@@ -43,8 +49,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 					)}
 					{url && (
 						<a
-							href={github}
-							className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:ring-4 focus:outline-none focus:ring-dark-secondary dark:bg-dark-primary dark:hover:bg-dark-accent dark:focus:bg-dark-secondary'
+							href={url}
+							target='_blank'
+							className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:outline-none dark:bg-dark-primary dark:hover:bg-dark-accent'
 						>
 							Ver deploy
 							<svg
