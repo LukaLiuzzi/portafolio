@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 							target='_blank'
 							className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:outline-none dark:bg-dark-primary dark:hover:bg-dark-accent'
 						>
-							Ver deploy
+							Ver
 							<svg
 								aria-hidden='true'
 								className='w-4 h-4 ml-2 -mr-1'
