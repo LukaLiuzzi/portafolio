@@ -1,0 +1,65 @@
+import ProcessCard from './ProcessCard';
+import talkSvg from '../assets/talk.svg';
+import researchSvg from '../assets/research.svg';
+import prototypeSvg from '../assets/prototype.svg';
+import developSvg from '../assets/develop.svg';
+import testSvg from '../assets/test.svg';
+import productionSvg from '../assets/production.svg';
+import { AiOutlineArrowDown } from 'react-icons/ai';
+
+const Process: React.FC = () => {
+	return (
+		<div className='mt-14 text-center'>
+			<h2 className='text-3xl font-bold'>Proceso</h2>
+
+			<ProcessCard
+				alt='Personas hablando'
+				title='Hablar'
+				svg={talkSvg}
+				description='Hablar con el cliente para entender sus necesidades y objetivos.'
+			/>
+			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+
+			<ProcessCard
+				alt='Investigacion'
+				title='Investigacion'
+				svg={researchSvg}
+				description='Investigar sobre el cliente y su industria para entender mejor sus necesidades.'
+			/>
+			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+
+			<ProcessCard
+				alt='Prototipo'
+				title='Prototipo'
+				svg={prototypeSvg}
+				description='Prototipar para validar las ideas y soluciones.'
+			/>
+			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+
+			<ProcessCard
+				alt='Desarrollo'
+				title='Desarrollo'
+				svg={developSvg}
+				description='Desarrollar el producto final.'
+			/>
+			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+
+			<ProcessCard
+				alt='Pruebas'
+				title='Pruebas'
+				svg={testSvg}
+				description='Probar el producto final para asegurar que cumple con las necesidades del cliente.'
+			/>
+			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+
+			<ProcessCard
+				alt='Produccion'
+				title='Produccion'
+				svg={productionSvg}
+				description='Lanzar el producto final.'
+			/>
+		</div>
+	);
+};
+
+export default Process;
