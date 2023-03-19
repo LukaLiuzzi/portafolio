@@ -50,23 +50,28 @@ const Navbar: React.FC = () => {
 				} md:px-2 md:flex md:space-x-2 absolute md:relative top-full md:top-auto left-0 right-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary md:bg-transparent md:dark:bg-transparent`}
 			>
 				<li className='flex md:inline-flex p-4 items-center justify-center'>
-					<a href='#'>
+					<a href='#about'>
 						<span>Sobre mi</span>
 					</a>
 				</li>
 				<li className='flex md:inline-flex p-4 items-center justify-center'>
-					<a href='#'>
+					<a href='#skills'>
 						<span>Skills</span>
 					</a>
 				</li>
 				<li className='flex md:inline-flex p-4 items-center justify-center'>
-					<a href='#'>
+					<a href='#projects'>
 						<span>Proyectos</span>
 					</a>
 				</li>
 				<li className='flex md:inline-flex p-4 items-center justify-center'>
-					<a href='#'>
+					<a href='#process'>
 						<span>Proceso</span>
+					</a>
+				</li>
+				<li className='flex md:inline-flex p-4 items-center justify-center'>
+					<a href='#contact'>
+						<span>Contacto</span>
 					</a>
 				</li>
 			</ul>

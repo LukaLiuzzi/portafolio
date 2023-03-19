@@ -1,5 +1,13 @@
-import { ProjectCardProps } from '../interfaces/project.interface';
 import { AiFillGithub } from 'react-icons/ai';
+
+export interface ProjectCardProps {
+	key: number;
+	img: string;
+	title: string;
+	description: string;
+	github?: string;
+	url?: string;
+}
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
 	img,
@@ -9,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	url,
 }) => {
 	return (
-		<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+		<div className='max-w-sm bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
 			<a href='#'>
 				{/* <img className='rounded-t-lg' src={img} alt={`Imagen de ${title}`} /> */}
 				<iframe src={url}></iframe>

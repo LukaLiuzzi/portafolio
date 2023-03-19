@@ -16,6 +16,7 @@ const Studies: React.FC = () => {
 					description='Desarrollo de aplicaciones web y móviles, diseño de interfaces, optimización de SEO y manejo de bases de datos. optimización de SEO y manejo de bases de datos.'
 					date='2021 - 2023'
 					icon={<ImBooks />}
+					background='lightblue'
 				/>
 				<TimelineCard
 					title='Secundario Completo'
@@ -23,6 +24,7 @@ const Studies: React.FC = () => {
 					description='Secundario completo en el colegio Bachiller Manuel Belgrano.'
 					date='2014 - 2019'
 					icon={<ImBooks />}
+					background='lightblue'
 				/>
 				<VerticalTimelineElement
 					className='vertical-timeline-element--work'

@@ -6,11 +6,12 @@ import developSvg from '../assets/develop.svg';
 import testSvg from '../assets/test.svg';
 import productionSvg from '../assets/production.svg';
 import { AiOutlineArrowDown } from 'react-icons/ai';
+import SectionWrapper from './SectionWrapper';
 
 const Process: React.FC = () => {
 	return (
-		<div className='mt-14 text-center'>
-			<h2 className='text-3xl font-bold'>Proceso</h2>
+		<SectionWrapper id='process'>
+			<h2 className='text-4xl font-bold'>Proceso</h2>
 
 			<ProcessCard
 				alt='Personas hablando'
@@ -58,7 +59,7 @@ const Process: React.FC = () => {
 				svg={productionSvg}
 				description='Lanzar el producto final.'
 			/>
-		</div>
+		</SectionWrapper>
 	);
 };
 

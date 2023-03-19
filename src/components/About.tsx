@@ -1,8 +1,9 @@
 import Selfie from '../assets/yo.jpg';
+import SectionWrapper from './SectionWrapper';
 
 const About: React.FC = () => {
 	return (
-		<div className='mt-20'>
+		<SectionWrapper id='about'>
 			<h2 className='text-4xl font-bold'>Sobre mi</h2>
 			<p className='mt-4 text-lg'>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic
@@ -21,7 +22,7 @@ const About: React.FC = () => {
 					className='rounded w-64 h-64 object-cover'
 				/>
 			</div>
-		</div>
+		</SectionWrapper>
 	);
 };
 

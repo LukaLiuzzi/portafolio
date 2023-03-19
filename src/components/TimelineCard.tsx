@@ -6,6 +6,7 @@ interface TimelineCardProps {
 	date: string;
 	description: string;
 	icon: React.ReactNode;
+	background?: string;
 }
 
 const TimelineCard: React.FC<TimelineCardProps> = ({
@@ -14,17 +15,18 @@ const TimelineCard: React.FC<TimelineCardProps> = ({
 	date,
 	description,
 	icon,
+	background = 'orange',
 }) => {
 	return (
 		<VerticalTimelineElement
 			className='vertical-timeline-element--work'
 			contentStyle={{
-				background: 'orange',
+				background,
 				color: '#000',
 				fontWeight: 'bold',
 			}}
 			contentArrowStyle={{
-				borderRight: '7px solid orange',
+				borderRight: `7px solid ${background}`,
 			}}
 			dateClassName='lg:text-green-700 lg:mx-2'
 			date={date}
