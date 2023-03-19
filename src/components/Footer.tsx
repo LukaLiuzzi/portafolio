@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
 						rel='noopener'
 						aria-label='LinkedIn'
 					>
-						<FaLinkedin className='text-2xl' />
+						<FaLinkedin className='text-2xl hover:opacity-70' />
 					</a>
 					<a
 						href='https://github.com/lukaliuzzi'
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
 						rel='noopener'
 						aria-label='GitHub'
 					>
-						<FaGithub className='text-2xl' />
+						<FaGithub className='text-2xl hover:opacity-70' />
 					</a>
 					<a
 						href='mailto:lukaliuzzidev@gmail.com'
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
 						rel='noopener'
 						aria-label='Email'
 					>
-						<FaEnvelope className='text-2xl' />
+						<FaEnvelope className='text-2xl hover:opacity-70' />
 					</a>
 				</div>
 			</div>

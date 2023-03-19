@@ -1,10 +1,11 @@
 import developerIllustration from '../assets/developer-illustration.svg';
+import SectionTitle from './SectionTitle';
 import SectionWrapper from './SectionWrapper';
 
 const Contact: React.FC = () => {
 	return (
 		<SectionWrapper id='contact'>
-			<h2 className='text-4xl font-bold text-center'>Contacto</h2>
+			<SectionTitle title='Contacto' />
 			<div className='mt-4 flex flex-col justify-center items-center gap-2 md:flex-row md:gap-10'>
 				<div>
 					<h4 className='text-3xl'>Queres trabajar conmigo?</h4>

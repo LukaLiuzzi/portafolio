@@ -7,11 +7,12 @@ import testSvg from '../assets/test.svg';
 import productionSvg from '../assets/production.svg';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import SectionWrapper from './SectionWrapper';
+import SectionTitle from './SectionTitle';
 
 const Process: React.FC = () => {
 	return (
 		<SectionWrapper id='process'>
-			<h2 className='text-4xl font-bold'>Proceso</h2>
+			<SectionTitle title='Proceso' />
 
 			<ProcessCard
 				alt='Personas hablando'

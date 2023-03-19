@@ -3,6 +3,7 @@ import SkillsLogos from './SkillsLogos';
 import Experience from './Experience';
 import Studies from './Studies';
 import SectionWrapper from './SectionWrapper';
+import SectionTitle from './SectionTitle';
 
 enum SkillsType {
 	'skills',
@@ -19,7 +20,7 @@ const Skills: React.FC = () => {
 
 	return (
 		<SectionWrapper id='skills'>
-			<h2 className='text-4xl font-bold text-center'>Skills</h2>
+			<SectionTitle title='Skills' />
 
 			<div className='flex justify-center items-center gap-6 font-bold'>
 				<button
