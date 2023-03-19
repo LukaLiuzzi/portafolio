@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import Logo from '../assets/logo.svg';
 
 const Footer: React.FC = () => {
 	return (
@@ -8,7 +7,7 @@ const Footer: React.FC = () => {
 				<div>
 					<a href='#home'>
 						<img
-							src={Logo}
+							src='/logo.svg'
 							alt='Logo Luka Liuzzi'
 							className='w-8 h-8 mr-2 object-contain'
 						/>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Logo from '../assets/logo.svg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 
@@ -27,7 +26,7 @@ const Navbar: React.FC = () => {
 			<div className='text-lg font-bold md:py-0 py-4'>
 				<a href='#home'>
 					<img
-						src={Logo}
+						src='/logo.svg'
 						alt='Logo Luka Liuzzi'
 						className='w-12 rounded-full'
 					/>
