@@ -18,15 +18,15 @@ const Process: React.FC = () => {
 				alt='Personas hablando'
 				title='Hablar'
 				svg={talkSvg}
-				description='Hablar con el cliente para entender sus necesidades y objetivos.'
+				description='Converso con vos para entender tus necesidades y objetivos.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
 			<ProcessCard
-				alt='Investigacion'
-				title='Investigacion'
+				alt='Investigación'
+				title='Investigación'
 				svg={researchSvg}
-				description='Investigar sobre el cliente, su industria y su competencia para desarrollar un mejor producto.'
+				description='Investigo sobre tu negocio, tu industria y tu competencia para desarrollar un mejor producto.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
@@ -34,7 +34,7 @@ const Process: React.FC = () => {
 				alt='Prototipo'
 				title='Prototipo'
 				svg={prototypeSvg}
-				description='Prototipar para validar las ideas y soluciones.'
+				description='Prototipo para validar las ideas y soluciones.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
@@ -42,7 +42,7 @@ const Process: React.FC = () => {
 				alt='Desarrollo'
 				title='Desarrollo'
 				svg={developSvg}
-				description='Desarrollar el producto final.'
+				description='Desarrollo el producto final.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
@@ -50,15 +50,15 @@ const Process: React.FC = () => {
 				alt='Pruebas'
 				title='Pruebas'
 				svg={testSvg}
-				description='Probar el producto final para asegurar que cumple con las necesidades del cliente.'
+				description='Pruebas del producto final para asegurar que cumple con tus necesidades y objetivo.'
 			/>
 			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
 
 			<ProcessCard
-				alt='Produccion'
-				title='Produccion'
+				alt='Producción'
+				title='Producción'
 				svg={productionSvg}
-				description='Lanzar el producto final al mercado.'
+				description='Lanzamiento del producto final al mercado.'
 			/>
 		</SectionWrapper>
 	);

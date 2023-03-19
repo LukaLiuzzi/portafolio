@@ -10,11 +10,9 @@ const About: React.FC = () => {
 				<div className='flex-1'>
 					<p className='mt-4 text-lg'>
 						Soy un desarrollador web full stack apasionado por crear soluciones
-						técnicas personalizadas y efectivas. Trabajo con tecnologías de
-						vanguardia, colaboro en equipo y siempre me esfuerzo por superar las
-						expectativas de mis clientes. Si buscas un desarrollador web
-						altamente cualificado que pueda ofrecer soluciones innovadoras,
-						¡estoy aca para ayudarte!.
+						técnicas personalizadas y eficaces. Trabajo con las ultimas
+						tecnologías, colaboro en equipo y siempre me esfuerzo por superar
+						las expectativas de mis clientes.
 					</p>
 					<a href='/CVLukaLiuzzi.pdf' download>
 						<button className='mt-6 bg-light-text text-light-primary hover:bg-light-accent dark:bg-green-300 px-4 py-2 rounded-md text-md dark:text-dark-primary font-bold uppercase hover:dark:bg-green-500'>
