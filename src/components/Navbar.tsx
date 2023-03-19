@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
 	}, [isOpen]);
 
 	return (
-		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-md z-50'>
+		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 bg-light-primary dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-md z-50'>
 			<div className='text-lg font-bold md:py-0 py-4'>
 				<a href='#home'>
 					<img
@@ -52,31 +52,31 @@ const Navbar: React.FC = () => {
 			<ul
 				className={`${
 					isOpen ? 'block' : 'hidden'
-				} md:px-2 md:flex md:space-x-2 absolute md:relative top-full md:top-auto left-0 right-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary md:bg-transparent md:dark:bg-transparent`}
+				} md:px-2 md:flex md:space-x-2 fixed left-0 top-20 right-0 bottom-0 md:relative md:top-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary md:bg-transparent md:dark:bg-transparent`}
 			>
-				<li className='flex md:inline-flex p-4 items-center justify-center hover:opacity-60'>
-					<a href='#about'>
-						<span>Sobre mi</span>
+				<li className='flex md:inline-flex items-center justify-center'>
+					<a href='#about' className='p-4 hover:opacity-60 cursor-pointer'>
+						Sobre mi
 					</a>
 				</li>
-				<li className='flex md:inline-flex p-4 items-center justify-center hover:opacity-60'>
-					<a href='#skills'>
-						<span>Skills</span>
+				<li className='flex md:inline-flex items-center justify-center'>
+					<a href='#skills' className='p-4 hover:opacity-60 cursor-pointer'>
+						Skills
 					</a>
 				</li>
-				<li className='flex md:inline-flex p-4 items-center justify-center hover:opacity-60'>
-					<a href='#projects'>
-						<span>Proyectos</span>
+				<li className='flex md:inline-flex items-center justify-center'>
+					<a href='#projects' className='p-4 hover:opacity-60 cursor-pointer'>
+						Proyectos
 					</a>
 				</li>
-				<li className='flex md:inline-flex p-4 items-center justify-center hover:opacity-60'>
-					<a href='#process'>
-						<span>Proceso</span>
+				<li className='flex md:inline-flex items-center justify-center'>
+					<a href='#process' className='p-4 hover:opacity-60 cursor-pointer'>
+						Proceso
 					</a>
 				</li>
-				<li className='flex md:inline-flex p-4 items-center justify-center hover:opacity-60'>
-					<a href='#contact'>
-						<span>Contacto</span>
+				<li className='flex md:inline-flex items-center justify-center'>
+					<a href='#contact' className='p-4 hover:opacity-60 cursor-pointer'>
+						Contacto
 					</a>
 				</li>
 			</ul>
