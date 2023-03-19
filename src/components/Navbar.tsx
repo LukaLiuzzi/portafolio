@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Logo from '../assets/yo.jpg';
+import Logo from '../assets/logo.svg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 
@@ -25,7 +25,9 @@ const Navbar: React.FC = () => {
 	return (
 		<nav className='flex px-4 shadow-md items-center md:justify-around md:h-20 dark:bg-dark-primary md:dark:bg-dark-primary/90 dark:text-dark-text fixed top-0 left-0 w-full md:backdrop-blur-md z-50'>
 			<div className='text-lg font-bold md:py-0 py-4'>
-				<img src={Logo} alt='Logo' className='w-12 rounded-full' />
+				<a href='#home'>
+					<img src={Logo} alt='Logo' className='w-12 rounded-full' />
+				</a>
 			</div>
 
 			{/* Button to show/hide menu */}

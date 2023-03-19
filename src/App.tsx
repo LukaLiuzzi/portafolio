@@ -10,7 +10,7 @@ import Skills from './components/Skills';
 export default function App() {
 	return (
 		<>
-			<header>
+			<header id='home'>
 				<Navbar />
 				<Layout>
 					<Hero />
