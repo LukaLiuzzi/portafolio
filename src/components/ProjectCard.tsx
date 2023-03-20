@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
 	return (
 		<a href={url} target='_blank'>
-			<div className='bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col'>
+			<div className='bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col h-full'>
 				<img
 					className='rounded-t-lg object-fill w-full h-48'
 					src={img}
