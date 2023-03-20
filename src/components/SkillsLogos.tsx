@@ -11,6 +11,7 @@ import LogoNext from '../assets/next-js.svg';
 import LogoGit from '../assets/git-icon.svg';
 import LogoTailwind from '../assets/tailwindcss.svg';
 import LogoBootstrap from '../assets/bootstrap-5-1.svg';
+import LogoTypescript from '../assets/typescript.svg';
 import Logo from './Logo';
 
 const SkillsLogos: React.FC = () => {
@@ -21,6 +22,7 @@ const SkillsLogos: React.FC = () => {
 				<Logo src={LogoHtml} title='HTML' />
 				<Logo src={LogoCss} title='CSS' />
 				<Logo src={LogoJs} title='JavaScript' />
+				<Logo src={LogoTypescript} title='TypeScript' />
 				<Logo src={LogoSass} title='Sass' />
 				<Logo src={LogoTailwind} title='Tailwind' />
 				<Logo src={LogoBootstrap} title='Bootstrap' />
