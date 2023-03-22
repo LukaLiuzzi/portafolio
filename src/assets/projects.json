@@ -2,14 +2,14 @@
     {
         "key": 1,
         "title": "Camino a casa",
-        "description": "Una aplicación para facilitar la adopción de mascotas donde usuarios y refugios pueden publicar y encontrar animales.",
+        "description": "Una aplicación para facilitar la adopción de mascotas donde usuarios y refugios pueden publicar y encontrar animales. Desarrollada con React, Express, TypeScript, Node y MongoDB.",
         "img": "/caminoacasa.png",
         "url": "https://www.caminoacasa.ar"
     },
     {
         "key": 2,
         "title": "Aymi lova",
-        "description": "Una página web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo.",
+        "description": "Una página web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo. Desarrollada con HTML, CSS y JavaScript vanilla.",
         "img": "/aymilova.png",
         "github": "https://github.com/LukaLiuzzi/aymilova",
         "url": "https://www.aymilova.com.ar"
@@ -17,7 +17,7 @@
     {
         "key": 3,
         "title": "RockandDolls",
-        "description": "RockandDolls es un e-commerce desarrollado para una clienta que tiene un emprendimiento de ropa.",
+        "description": "RockandDolls es un e-commerce desarrollado para una clienta que tiene un emprendimiento de ropa. Desarrollada con React y Firebase.",
         "img": "/rockanddolls.png",
         "github": "https://github.com/LukaLiuzzi/rockanddolls-react",
         "url": "https://galushowroom.web.app/"
@@ -25,9 +25,17 @@
     {
         "key": 4,
         "title": "MovieFan",
-        "description": "MovieFan es una página web que muestra películas catalogadas por género y permite buscar por nombre. También permite ver el tráiler de la película si está disponible.",
+        "description": "MovieFan es una página web que muestra películas catalogadas por género y permite buscar por nombre. También permite ver el tráiler de la película si está disponible. Desarrollada con HTML, CSS y JavaScript vanilla.",
         "img": "/moviefan.png",
         "github": "https://github.com/LukaLiuzzi/moviefan",
         "url": "https://lukaliuzzi.github.io/moviefan/"
+    },
+    {
+        "key": 5,
+        "title": "Whatsapp Clone",
+        "description": "Un clon de Whatsapp desarrollado con NextJS y TypeScript.",
+        "img": "/wsp-web.png",
+        "github": "https://github.com/LukaLiuzzi/whatsapp-web-ui",
+        "url": "https://whatsapp-web-ui-rosy.vercel.app/"
     }
 ]
