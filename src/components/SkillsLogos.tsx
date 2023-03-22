@@ -12,6 +12,7 @@ import LogoGit from '../assets/git-icon.svg';
 import LogoTailwind from '../assets/tailwindcss.svg';
 import LogoBootstrap from '../assets/bootstrap-5-1.svg';
 import LogoTypescript from '../assets/typescript.svg';
+import LogoNpm from '../assets/npm.svg';
 import Logo from './Logo';
 
 const SkillsLogos: React.FC = () => {
@@ -39,6 +40,7 @@ const SkillsLogos: React.FC = () => {
 				<Logo src={LogoNode} title='Node' />
 				<Logo src={LogoMongo} title='MongoDB' />
 				<Logo src={LogoGit} title='Git' />
+				<Logo src={LogoNpm} title='NPM' />
 			</div>
 		</div>
 	);
