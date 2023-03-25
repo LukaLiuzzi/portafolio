@@ -13,6 +13,8 @@ import LogoTailwind from '../assets/tailwindcss.svg';
 import LogoBootstrap from '../assets/bootstrap-5-1.svg';
 import LogoTypescript from '../assets/typescript.svg';
 import LogoNpm from '../assets/npm.svg';
+import mysqlLogo from '../assets/mysql-6.svg';
+import sqlite from '../assets/sqlite.svg';
 import Logo from './Logo';
 
 const SkillsLogos: React.FC = () => {
@@ -39,6 +41,8 @@ const SkillsLogos: React.FC = () => {
 			<div className='flex items-center gap-6 flex-wrap mt-8'>
 				<Logo src={LogoNode} title='Node' />
 				<Logo src={LogoMongo} title='MongoDB' />
+				<Logo src={mysqlLogo} title='MySQL' />
+				<Logo src={sqlite} title='SQLite' />
 				<Logo src={LogoGit} title='Git' />
 				<Logo src={LogoNpm} title='NPM' />
 			</div>
