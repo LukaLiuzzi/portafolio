@@ -9,11 +9,11 @@ const Hero: React.FC = () => {
 		<SectionWrapper id='hero'>
 			<div className='flex justify-center items-center flex-col gap-6 font-bold max-w-lg m-auto w-full'>
 				<div className='flex gap-1 justify-center items-center'>
-					<h2 className='text-2xl'>Soy Luka</h2>
+					<h2 className='text-2xl text-red-400'>Soy Luka</h2>
 					<span className='animate-waving-hand text-2xl'>👋</span>
 				</div>
 
-				<h1 className='text-4xl max-w-md text-center'>
+				<h1 className='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-indigo-700 animate-pulse'>
 					Desarrollador Full Stack
 				</h1>
 
