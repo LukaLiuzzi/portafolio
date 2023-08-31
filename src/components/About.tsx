@@ -8,7 +8,7 @@ const About: React.FC = () => {
       <SectionTitle title="Sobre mí" />
       <div className="flex flex-col justify-center items-center md:flex-row gap-10 md:mt-10 w-full">
         <div className="flex-1">
-          <p className="mt-4 text-lg">
+          <p className="mt-4 text-xl">
             Soy un desarrollador web full stack apasionado por crear soluciones
             técnicas personalizadas y eficaces. Trabajo con las ultimas
             tecnologías, colaboro en equipo y siempre me esfuerzo por superar

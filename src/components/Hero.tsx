@@ -17,13 +17,6 @@ const Hero: React.FC = () => {
           Desarrollador Full Stack
         </h1>
 
-        <p className="text-lg text-center">
-          Desarrollador web full stack especializado en la creación de
-          soluciones técnicas que satisfacen las necesidades del cliente y de
-          los usuarios finales. Comprometido con la calidad y la colaboración en
-          equipo.
-        </p>
-
         <div className="flex items-center gap-4">
           <a href="https://www.linkedin.com/in/lukaliuzzi/" target="_blank">
             <FaLinkedin className="text-3xl hover:opacity-70" />
