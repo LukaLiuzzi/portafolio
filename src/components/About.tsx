@@ -4,7 +4,7 @@ import SectionWrapper from "./SectionWrapper"
 
 const About: React.FC = () => {
   return (
-    <SectionWrapper id="about">
+    <SectionWrapper id="about" styles="pt-6">
       <SectionTitle title="Sobre mí" />
       <div className="flex flex-col justify-center items-center md:flex-row gap-10 md:mt-10 w-full">
         <div className="flex-1">

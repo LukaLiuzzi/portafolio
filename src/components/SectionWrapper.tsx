@@ -1,14 +1,19 @@
 interface SectionWrapperProps {
-	children: React.ReactNode;
-	id: string;
+  children: React.ReactNode
+  id: string
+  styles?: string
 }
 
-const SectionWrapper: React.FC<SectionWrapperProps> = ({ children, id }) => {
-	return (
-		<section className='pt-20' id={id}>
-			{children}
-		</section>
-	);
-};
+const SectionWrapper: React.FC<SectionWrapperProps> = ({
+  children,
+  id,
+  styles = "pt-20",
+}) => {
+  return (
+    <section className={styles} id={id}>
+      {children}
+    </section>
+  )
+}
 
-export default SectionWrapper;
+export default SectionWrapper

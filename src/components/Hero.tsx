@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <span className="animate-waving-hand text-2xl">👋</span>
         </div>
 
-        <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-violet-700 from-green-500 animate-pulse">
+        <h1 className="text-4xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-violet-700 from-green-500 animate-pulse">
           Desarrollador Full Stack
         </h1>
 
