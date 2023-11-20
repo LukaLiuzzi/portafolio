@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
         {projectsWithoutCaminoACasa.map((project) => (
-          <Atropos className="my-atropos">
+          <Atropos className="my-atropos" key={project.key}>
             <ProjectCard {...project} />
           </Atropos>
         ))}
