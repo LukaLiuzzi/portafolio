@@ -14,7 +14,7 @@ const About: React.FC = () => {
             tecnologías, colaboro en equipo y siempre me esfuerzo por superar
             las expectativas de mis clientes.
           </p>
-          <a href="/CVLukaLiuzzi.pdf" download>
+          <a href="/Luka-Liuzzi-CV.pdf" download>
             <button className="mt-6 bg-light-text text-light-primary hover:bg-light-accent dark:bg-green-300 px-4 py-2 rounded-md text-md dark:text-dark-primary font-bold uppercase hover:dark:bg-green-500">
               Descargar CV
             </button>
