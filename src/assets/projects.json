@@ -12,7 +12,7 @@
         "description": "Una página web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo. Desarrollada con HTML, CSS y JavaScript vanilla.",
         "img": "/aymilova.webp",
         "github": "https://github.com/LukaLiuzzi/aymilova",
-        "url": "https://www.aymilova.com.ar"
+        "url": "https://aymilova.vercel.app"
     },
     {
         "key": 3,
