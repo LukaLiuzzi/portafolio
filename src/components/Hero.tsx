@@ -3,6 +3,7 @@ import { FiArrowDown } from "react-icons/fi"
 import SectionWrapper from "./SectionWrapper"
 import { FaLinkedin } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
+import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
 
 const Hero: React.FC = () => {
   return (
@@ -19,13 +20,19 @@ const Hero: React.FC = () => {
 
         <div className="flex items-center gap-4">
           <a href="https://www.linkedin.com/in/lukaliuzzi/" target="_blank">
-            <FaLinkedin className="text-3xl hover:opacity-70" />
+            <NeumorphismBtn className="p-1">
+              <FaLinkedin className="text-3xl" />
+            </NeumorphismBtn>
           </a>
           <a href="https://github.com/lukaliuzzi" target="_blank">
-            <BsGithub className="text-3xl hover:opacity-70" />
+            <NeumorphismBtn className="p-1">
+              <BsGithub className="text-3xl" />
+            </NeumorphismBtn>
           </a>
           <a href="mailto:lukaliuzzidev@gmail.com" target="_blank">
-            <MdEmail className="text-3xl hover:opacity-70" />
+            <NeumorphismBtn className="p-1">
+              <MdEmail className="text-3xl" />
+            </NeumorphismBtn>
           </a>
         </div>
 
