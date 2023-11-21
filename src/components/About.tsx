@@ -1,4 +1,5 @@
 import Selfie from "../assets/yo.jpg"
+import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
 import SectionTitle from "./SectionTitle"
 import SectionWrapper from "./SectionWrapper"
 
@@ -16,9 +17,9 @@ const About: React.FC = () => {
             por superar las expectativas.
           </p>
           <a href="/Luka-Liuzzi-CV.pdf" download>
-            <button className="mt-6 bg-light-text text-light-primary hover:bg-light-accent dark:bg-green-300 px-4 py-2 rounded-md text-md dark:text-dark-primary font-bold uppercase hover:dark:bg-green-500">
+            <NeumorphismBtn className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase">
               Descargar CV
-            </button>
+            </NeumorphismBtn>
           </a>
         </div>
 

@@ -2,6 +2,15 @@ import { useEffect, useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { IoClose } from "react-icons/io5"
 import DarkModeSwitch from "./DarkModeSwitch/DarkModeSwitch"
+import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
+
+const menuItems = [
+  { href: "#about", label: "Sobre mi" },
+  { href: "#skills", label: "Skills" },
+  { href: "#projects", label: "Proyectos" },
+  { href: "#process", label: "Proceso" },
+  { href: "#contact", label: "Contacto" },
+]
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -55,31 +64,18 @@ const Navbar: React.FC = () => {
           isOpen ? "block" : "hidden"
         } md:px-2 md:flex md:space-x-2 fixed left-0 top-20 right-0 bottom-0 md:relative md:top-0 font-bold text-xl uppercase bg-light-primary dark:bg-dark-primary md:bg-transparent md:dark:bg-transparent`}
       >
-        <li className="flex md:inline-flex items-center justify-center">
-          <a href="#about" className="p-4 hover:opacity-60 cursor-pointer">
-            Sobre mi
-          </a>
-        </li>
-        <li className="flex md:inline-flex items-center justify-center">
-          <a href="#skills" className="p-4 hover:opacity-60 cursor-pointer">
-            Skills
-          </a>
-        </li>
-        <li className="flex md:inline-flex items-center justify-center">
-          <a href="#projects" className="p-4 hover:opacity-60 cursor-pointer">
-            Proyectos
-          </a>
-        </li>
-        <li className="flex md:inline-flex items-center justify-center">
-          <a href="#process" className="p-4 hover:opacity-60 cursor-pointer">
-            Proceso
-          </a>
-        </li>
-        <li className="flex md:inline-flex items-center justify-center">
-          <a href="#contact" className="p-4 hover:opacity-60 cursor-pointer">
-            Contacto
-          </a>
-        </li>
+        {menuItems.map((item) => (
+          <li
+            className="flex md:inline-flex items-center justify-center my-4 md:my-0"
+            key={item.href}
+          >
+            <a href={item.href} className="cursor-pointer" onClick={toggleMenu}>
+              <NeumorphismBtn className="px-3 py-1 rounded-md">
+                {item.label}
+              </NeumorphismBtn>
+            </a>
+          </li>
+        ))}
       </ul>
       <div>
         <DarkModeSwitch />

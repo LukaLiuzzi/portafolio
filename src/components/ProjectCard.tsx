@@ -1,4 +1,5 @@
 import { AiFillGithub } from "react-icons/ai"
+import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
 
 export interface ProjectCardProps {
   key: number
@@ -17,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
 }) => {
   return (
-    <div className="bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col h-full">
+    <div className="bg-light-primary border border-gray-200 rounded-lg shadow dark:bg-dark-primary dark:border-gray-700 flex flex-col h-full">
       <a href={url ? url : undefined} target="_blank">
         <img
           className="rounded-t-lg object-fill w-full h-48"
@@ -40,32 +41,36 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               <a
                 href={github}
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:outline-none dark:bg-dark-primary dark:hover:bg-dark-accent"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg"
               >
-                Ver codigo
-                <AiFillGithub className="w-5 h-5 ml-2 -mr-1" />
+                <NeumorphismBtn className="p-2 flex items-center justify-center">
+                  Ver codigo
+                  <AiFillGithub className="w-5 h-5 ml-2 -mr-1" />
+                </NeumorphismBtn>
               </a>
             )}
             {url && (
               <a
                 href={url}
                 target="_blank"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-dark-primary rounded-lg hover:bg-dark-accent focus:outline-none dark:bg-dark-primary dark:hover:bg-dark-accent"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg"
               >
-                Ver
-                <svg
-                  aria-hidden="true"
-                  className="w-4 h-4 ml-2 -mr-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
+                <NeumorphismBtn className="p-2 flex items-center justify-center">
+                  Ver
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </NeumorphismBtn>
               </a>
             )}
           </div>
