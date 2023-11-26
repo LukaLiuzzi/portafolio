@@ -3,17 +3,36 @@ import { GiHamburgerMenu } from "react-icons/gi"
 import { IoClose } from "react-icons/io5"
 import DarkModeSwitch from "./DarkModeSwitch/DarkModeSwitch"
 import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
+import { useTranslation } from "react-i18next"
 
-const menuItems = [
-  { href: "#about", label: "Sobre mi" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Proyectos" },
-  { href: "#process", label: "Proceso" },
-  { href: "#contact", label: "Contacto" },
-]
-
-const Navbar: React.FC = () => {
+const Navbar = ({
+  changeLanguage,
+  language,
+}: {
+  changeLanguage: (lng: string) => void
+  language: string
+}) => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
+  const { t } = useTranslation()
+
+  const menuItems = [
+    { href: "#about", label: t("about") },
+    { href: "#skills", label: t("skills") },
+    { href: "#projects", label: t("projects") },
+    { href: "#process", label: t("process") },
+    { href: "#contact", label: t("contact") },
+  ]
+
+  const languageItems = [
+    {
+      label: "ES",
+      value: "es",
+    },
+    {
+      label: "EN",
+      value: "en",
+    },
+  ]
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
@@ -77,7 +96,23 @@ const Navbar: React.FC = () => {
           </li>
         ))}
       </ul>
-      <div>
+      <div className="flex gap-8 justify-center items-center">
+        <select
+          name="language"
+          id="language"
+          className="bg-light-primary dark:bg-dark-primary/90 dark:text-dark-text rounded-md px-2 py-2"
+          onChange={(e) => changeLanguage(e.target.value)}
+        >
+          {languageItems.map((item) => (
+            <option
+              value={item.value}
+              key={item.value}
+              selected={language === item.value}
+            >
+              {item.label}
+            </option>
+          ))}
+        </select>
         <DarkModeSwitch />
       </div>
     </nav>

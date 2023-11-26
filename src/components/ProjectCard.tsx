@@ -2,7 +2,6 @@ import { AiFillGithub } from "react-icons/ai"
 import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
 
 export interface ProjectCardProps {
-  key: number
   img: string
   title: string
   description: string

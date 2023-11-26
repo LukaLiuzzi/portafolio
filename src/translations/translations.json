@@ -1,0 +1,264 @@
+{
+    "es": {
+        "title": "Desarrollador Full Stack",
+        "subtitle": "Soy Luka 👋",
+        "about": "Sobre mí",
+        "skills": "Skills",
+        "projects": "Proyectos",
+        "process": "Proceso",
+        "contact": "Contacto",
+        "about-text": "Diseño y desarrollo aplicaciones web de extremo a extremo, con un enfoque personalizado para crear soluciones técnicas y así satisfacer las necesidades específicas de los clientes. Trabajo con las últimas tecnologías, colaboro en equipo y siempre me esfuerzo por superar las expectativas.",
+        "download-cv": "Descargar CV",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "libraries": "Librerías",
+        "frameworks": "Frameworks",
+        "experience-list": [
+            {
+                "title": "Desarrollador Freelance",
+                "place": "Freelance",
+                "date": "2021 - Presente",
+                "description": "Desarrollo de aplicaciones web. Soluciones tecnológicas a medida según las necesidades de los clientes."
+            },
+            {
+                "title": "Desarrollador Full Stack",
+                "place": "Boceto Contenidos",
+                "date": "2021 - Presente",
+                "description": "Diseñé y desarrollé aplicaciones web de extremo a extremo, abarcando tanto el frontend como el backend, con un enfoque personalizado para satisfacer las necesidades específicas de los clientes. Colaboré de manera efectiva en equipos multidisciplinarios de desarrollo, participando en reuniones estratégicas con los clientes para comprender y cumplir con sus requisitos."
+            },
+            {
+                "title": "Tutor Javascript, React, Node.js, Desarrollo Web",
+                "place": "CoderHouse",
+                "date": "2021 - Presente",
+                "description": "Como tutor en desarrollo full stack en Coderhouse, lideré la formación de los estudiantes en los aspectos frontend y backend. Personalicé la enseñanza, dirigí sus proyectos prácticos y participé en reuniones pedagógicas para adaptarme a las necesidades de los estudiantes, ademas de ser profesor suplente."
+            },
+            {
+                "title": "Profesor de carrera de Desarrollo web Full Stack",
+                "place": "Global Academy",
+                "date": "2023 - Presente",
+                "description": "Impartí clases de desarrollo web full stack en Global Academy, enseñando a los estudiantes los fundamentos de programación, diseño de interfaces y desarrollo de aplicaciones web, así como también optimización de SEO y manejo de bases de datos. Además, brindé asesoramiento y apoyo técnico a los alumnos, resolviendo sus consultas y ayudándolos a completar sus proyectos. Fue una experiencia gratificante poder compartir mis conocimientos y ver el crecimiento de los estudiantes en el campo de la tecnología."
+            }
+        ],
+        "education-list": [
+            {
+                "title": "Secundario Completo",
+                "place": "Colegio Bachiller Manuel Belgrano",
+                "date": "Finalizado en 2019",
+                "description": "Secundario completo en el colegio Bachiller Manuel Belgrano."
+            },
+            {
+                "title": "Carrera de Desarrollo Full Stack",
+                "place": "CoderHouse",
+                "date": "Finalizado en 2022",
+                "description": "Aprendizaje de tecnologías como Javascript, React, Node, Express, MongoDB, entre otras."
+            },
+            {
+                "title": "Tecnicatura Universitaria en Programación Informática",
+                "place": "UNSAM",
+                "date": "Iniciada en 2023",
+                "description": "Tecnicatura Universitaria en Programación Informática en la Universidad Nacional de San Martín."
+            }
+        ],
+        "projects-list": [
+            {
+                "title": "Camino a casa",
+                "description": "Una aplicación para facilitar la adopción de mascotas donde usuarios y refugios pueden publicar y encontrar animales. Desarrollada con React, Express, TypeScript, Node y MongoDB.",
+                "url": "https://petadoption-front.vercel.app",
+                "github": "",
+                "img": "/caminoacasa.webp"
+            },
+            {
+                "title": "Aymi lova",
+                "description": "Una página web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo. Desarrollada con HTML, CSS y JavaScript vanilla.",
+                "url": "https://aymilova.vercel.app",
+                "github": "https://github.com/LukaLiuzzi/aymilova",
+                "img": "/aymilova.webp"
+            },
+            {
+                "title": "RockandDolls",
+                "description": "RockandDolls es un e-commerce desarrollado para una clienta que tiene un emprendimiento de ropa. Desarrollada con React y Firebase.",
+                "url": "https://galushowroom.web.app",
+                "github": "https://github.com/LukaLiuzzi/rockanddolls-react",
+                "img": "/rockanddolls.webp"
+            },
+            {
+                "title": "MovieFan",
+                "description": "MovieFan es una página web que muestra películas catalogadas por género y permite buscar por nombre. También permite ver el tráiler de la película si está disponible. Desarrollada con HTML, CSS y JavaScript vanilla.",
+                "url": "https://lukaliuzzi.github.io/moviefan",
+                "github": "https://github.com/LukaLiuzzi/moviefan",
+                "img": "/moviefan.webp"
+            },
+            {
+                "title": "Whatsapp Clone",
+                "description": "Un clon de Whatsapp desarrollado con NextJS y TypeScript.",
+                "url": "https://whatsapp-web-ui-rosy.vercel.app",
+                "github": "https://github.com/LukaLiuzzi/whatsapp-web-ui",
+                "img": "/wsp-web.webp"
+            }
+        ],
+        "process-list": [
+            {
+                "title": "Hablar",
+                "description": "Converso con vos para entender tus necesidades y objetivos.",
+                "svg": "talk.svg"
+            },
+            {
+                "title": "Investigación",
+                "description": "Investigo sobre tu negocio, tu industria y tu competencia para desarrollar un mejor producto.",
+                "svg": "research.svg"
+            },
+            {
+                "title": "Desarrollo",
+                "description": "Desarrollo el producto final.",
+                "svg": "develop.svg"
+            },
+            {
+                "title": "Pruebas",
+                "description": "Pruebas del producto final para asegurar que cumple con tus necesidades y objetivo.",
+                "svg": "test.svg"
+            },
+            {
+                "title": "Producción",
+                "description": "Lanzamiento del producto final al mercado.",
+                "svg": "production.svg"
+            }
+        ],
+        "want-to-work": "¿Querés trabajar conmigo?",
+        "have-idea": "¿Tenés una idea?",
+        "lets-happen": "¡Hagámosla realidad!",
+        "email": "lukaliuzzidev@gmail.com"
+    },
+        "en": {
+            "title": "Full Stack Developer",
+            "subtitle": "I'm Luka 👋",
+            "about": "About Me",
+            "skills": "Skills",
+            "projects": "Projects",
+            "process": "Process",
+            "contact": "Contact",
+            "about-text": "I design and develop end-to-end web applications with a personalized approach to create technical solutions that meet the specific needs of clients. I work with the latest technologies, collaborate in teams, and always strive to exceed expectations.",
+            "download-cv": "Download CV",
+            "experience": "Experience",
+            "education": "Education",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "libraries": "Libraries",
+            "frameworks": "Frameworks",
+            "experience-list": [
+                {
+                    "title": "Freelance Developer",
+                    "place": "Freelance",
+                    "date": "2021 - Present",
+                    "description": "Web application development. Customized technological solutions according to client needs."
+                },
+                {
+                    "title": "Full Stack Developer",
+                    "place": "Boceto Contenidos",
+                    "date": "2021 - Present",
+                    "description": "Designed and developed end-to-end web applications, covering both frontend and backend, with a personalized approach to meet specific client needs. Effectively collaborated in multidisciplinary development teams, participating in strategic meetings with clients to understand and fulfill their requirements."
+                },
+                {
+                    "title": "JavaScript, React, Node.js, Web Development Tutor",
+                    "place": "CoderHouse",
+                    "date": "2021 - Present",
+                    "description": "As a full-stack development tutor at Coderhouse, I led students in both frontend and backend aspects. I customized teaching, guided their practical projects, and participated in pedagogical meetings to adapt to students' needs, also serving as a substitute teacher."
+                },
+                {
+                    "title": "Full Stack Web Development Course Instructor",
+                    "place": "Global Academy",
+                    "date": "2023 - Present",
+                    "description": "Taught full-stack web development at Global Academy, covering programming fundamentals, interface design, web application development, SEO optimization, and database management. Provided guidance and technical support to students, resolving queries and assisting them in completing their projects. It was a rewarding experience to share my knowledge and witness students' growth in the technology field."
+                }
+            ],
+            "education-list": [
+                {
+                    "title": "High School Diploma",
+                    "place": "Manuel Belgrano High School",
+                    "date": "Completed in 2019",
+                    "description": "Completed high school at Manuel Belgrano High School."
+                },
+                {
+                    "title": "Full Stack Development Career",
+                    "place": "CoderHouse",
+                    "date": "Completed in 2022",
+                    "description": "Learned technologies such as JavaScript, React, Node, Express, MongoDB, among others."
+                },
+                {
+                    "title": "University Technician in Computer Programming",
+                    "place": "UNSAM",
+                    "date": "Started in 2023",
+                    "description": "University Technician in Computer Programming at the National University of San Martin."
+                }
+            ],
+            "projects-list": [
+                {
+                    "title": "Camino a casa",
+                    "description": "An application to facilitate pet adoption where users and shelters can post and find animals. Developed with React, Express, TypeScript, Node, and MongoDB.",
+                    "url": "https://petadoption-front.vercel.app",
+                    "github": "",
+                    "img": "/caminoacasa.webp"
+                },
+                {
+                    "title": "Aymi Lova",
+                    "description": "A website developed for a client who paints murals and wants to showcase her work. Developed with HTML, CSS, and vanilla JavaScript.",
+                    "url": "https://aymilova.vercel.app",
+                    "github": "https://github.com/LukaLiuzzi/aymilova",
+                    "img": "/aymilova.webp"
+                },
+                {
+                    "title": "RockandDolls",
+                    "description": "RockandDolls is an e-commerce site developed for a client with a clothing business. Developed with React and Firebase.",
+                    "url": "https://galushowroom.web.app",
+                    "github": "https://github.com/LukaLiuzzi/rockanddolls-react",
+                    "img": "/rockanddolls.webp"
+                },
+                {
+                    "title": "MovieFan",
+                    "description": "MovieFan is a website that displays movies categorized by genre and allows searching by name. It also allows viewing the movie trailer if available. Developed with HTML, CSS, and vanilla JavaScript.",
+                    "url": "https://lukaliuzzi.github.io/moviefan",
+                    "github": "https://github.com/LukaLiuzzi/moviefan",
+                    "img": "/moviefan.webp"
+                },
+                {
+                    "title": "WhatsApp Clone",
+                    "description": "A WhatsApp clone developed with NextJS and TypeScript.",
+                    "url": "https://whatsapp-web-ui-rosy.vercel.app",
+                    "github": "https://github.com/LukaLiuzzi/whatsapp-web-ui",
+                    "img": "/wsp-web.webp"
+                }
+            ],
+            "process-list": [
+                {
+                    "title": "Discussion",
+                    "description": "I talk with you to understand your needs and goals.",
+                    "svg": "talk.svg"
+                },
+                {
+                    "title": "Research",
+                    "description": "I research your business, industry, and competitors to develop a better product.",
+                    "svg": "research.svg"
+                },
+                {
+                    "title": "Development",
+                    "description": "I develop the final product.",
+                    "svg": "develop.svg"
+                },
+                {
+                    "title": "Testing",
+                    "description": "Testing of the final product to ensure it meets your needs and goals.",
+                    "svg": "test.svg"
+                },
+                {
+                    "title": "Production",
+                    "description": "Launch of the final product to the market.",
+                    "svg": "production.svg"
+                }
+            ],
+            "want-to-work": "Want to work with me?",
+            "have-idea": "Have an idea?",
+            "lets-happen": "Let's make it happen!",
+            "email": "lukaliuzzidev@gmail.com"
+        }
+}

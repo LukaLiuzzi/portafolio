@@ -1,67 +1,62 @@
-import ProcessCard from './ProcessCard';
-import talkSvg from '../assets/talk.svg';
-import researchSvg from '../assets/research.svg';
-import prototypeSvg from '../assets/prototype.svg';
-import developSvg from '../assets/develop.svg';
-import testSvg from '../assets/test.svg';
-import productionSvg from '../assets/production.svg';
-import { AiOutlineArrowDown } from 'react-icons/ai';
-import SectionWrapper from './SectionWrapper';
-import SectionTitle from './SectionTitle';
+import ProcessCard from "./ProcessCard"
+import talkSvg from "../assets/talk.svg"
+import researchSvg from "../assets/research.svg"
+import prototypeSvg from "../assets/prototype.svg"
+import developSvg from "../assets/develop.svg"
+import testSvg from "../assets/test.svg"
+import productionSvg from "../assets/production.svg"
+import { AiOutlineArrowDown } from "react-icons/ai"
+import SectionWrapper from "./SectionWrapper"
+import SectionTitle from "./SectionTitle"
+import { useTranslation } from "react-i18next"
+
+export interface ProjectCardProps {
+  title: string
+  description: string
+  svg: string
+  alt: string
+  key: string
+}
 
 const Process: React.FC = () => {
-	return (
-		<SectionWrapper id='process'>
-			<SectionTitle title='Proceso' />
+  const { t } = useTranslation()
 
-			<ProcessCard
-				alt='Personas hablando'
-				title='Hablar'
-				svg={talkSvg}
-				description='Converso con vos para entender tus necesidades y objetivos.'
-			/>
-			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+  const processList = t("process-list", {
+    returnObjects: true,
+  }) as ProjectCardProps[]
 
-			<ProcessCard
-				alt='Investigación'
-				title='Investigación'
-				svg={researchSvg}
-				description='Investigo sobre tu negocio, tu industria y tu competencia para desarrollar un mejor producto.'
-			/>
-			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+  processList.forEach((process, index) => {
+    if (process.svg === "talk.svg") {
+      process.svg = talkSvg
+    } else if (process.svg === "research.svg") {
+      process.svg = researchSvg
+    } else if (process.svg === "prototype.svg") {
+      process.svg = prototypeSvg
+    } else if (process.svg === "develop.svg") {
+      process.svg = developSvg
+    } else if (process.svg === "test.svg") {
+      process.svg = testSvg
+    } else if (process.svg === "production.svg") {
+      process.svg = productionSvg
+    }
 
-			<ProcessCard
-				alt='Prototipo'
-				title='Prototipo'
-				svg={prototypeSvg}
-				description='Prototipo para validar las ideas y soluciones.'
-			/>
-			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+    process.alt = `${process.title} icon`
+  })
 
-			<ProcessCard
-				alt='Desarrollo'
-				title='Desarrollo'
-				svg={developSvg}
-				description='Desarrollo el producto final.'
-			/>
-			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+  return (
+    <SectionWrapper id="process">
+      <SectionTitle title={t("process")} />
 
-			<ProcessCard
-				alt='Pruebas'
-				title='Pruebas'
-				svg={testSvg}
-				description='Pruebas del producto final para asegurar que cumple con tus necesidades y objetivo.'
-			/>
-			<AiOutlineArrowDown className='text-3xl text-primary text-center w-full mt-4' />
+      {processList.map((process, index) => (
+        <div key={process.title}>
+          <ProcessCard {...process} />
+          {index !== processList.length - 1 && (
+            <AiOutlineArrowDown className="text-3xl text-primary text-center w-full mt-4" />
+          )}
+        </div>
+      ))}
+    </SectionWrapper>
+  )
+}
 
-			<ProcessCard
-				alt='Producción'
-				title='Producción'
-				svg={productionSvg}
-				description='Lanzamiento del producto final al mercado.'
-			/>
-		</SectionWrapper>
-	);
-};
-
-export default Process;
+export default Process

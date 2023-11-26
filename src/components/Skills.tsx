@@ -5,48 +5,44 @@ import Studies from "./Studies"
 import SectionWrapper from "./SectionWrapper"
 import SectionTitle from "./SectionTitle"
 import NeumorphismBtn from "../ui/buttons/NeumorphismBtn"
-
-enum SkillsType {
-  "skills",
-  "experience",
-  "studies",
-}
+import { useTranslation } from "react-i18next"
 
 const Skills: React.FC = () => {
-  const [skills, setSkills] = useState<SkillsType>(SkillsType.skills)
+  const [skills, setSkills] = useState<string>("skills")
+  const { t } = useTranslation()
 
-  const handleSkillsChange = (type: SkillsType) => {
+  const handleSkillsChange = (type: string) => {
     setSkills(type)
   }
 
   return (
     <SectionWrapper id="skills">
-      <SectionTitle title="Skills" />
+      <SectionTitle title={t("skills")} />
 
       <div className="flex justify-center items-center gap-6 font-bold flex-wrap">
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(SkillsType.skills)}
+          onClick={() => handleSkillsChange(t("skills"))}
         >
-          Skills
+          {t("skills")}
         </NeumorphismBtn>
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(SkillsType.experience)}
+          onClick={() => handleSkillsChange(t("experience"))}
         >
-          Experiencia
+          {t("experience")}
         </NeumorphismBtn>
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(SkillsType.studies)}
+          onClick={() => handleSkillsChange(t("education"))}
         >
-          Estudios
+          {t("education")}
         </NeumorphismBtn>
       </div>
 
-      {skills === SkillsType.skills && <SkillsLogos />}
-      {skills === SkillsType.experience && <Experience />}
-      {skills === SkillsType.studies && <Studies />}
+      {skills === t("skills") && <SkillsLogos />}
+      {skills === t("experience") && <Experience />}
+      {skills === t("education") && <Studies />}
     </SectionWrapper>
   )
 }
