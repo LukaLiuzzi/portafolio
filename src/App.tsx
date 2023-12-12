@@ -66,7 +66,7 @@ export default function App() {
               <About />
               <Skills />
               <Projects />
-              <Process />
+              {/* <Process /> */}
               <Contact />
             </main>
           </Layout>
