@@ -22,27 +22,27 @@ const Skills: React.FC = () => {
       <div className="flex justify-center items-center gap-6 font-bold flex-wrap">
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(t("skills"))}
+          onClick={() => handleSkillsChange("skills")}
         >
           {t("skills")}
         </NeumorphismBtn>
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(t("experience"))}
+          onClick={() => handleSkillsChange("experience")}
         >
           {t("experience")}
         </NeumorphismBtn>
         <NeumorphismBtn
           className="mt-6 px-4 py-2 rounded-md text-md font-bold uppercase"
-          onClick={() => handleSkillsChange(t("education"))}
+          onClick={() => handleSkillsChange("education")}
         >
           {t("education")}
         </NeumorphismBtn>
       </div>
 
-      {skills === t("skills") && <SkillsLogos />}
-      {skills === t("experience") && <Experience />}
-      {skills === t("education") && <Studies />}
+      {skills === "skills" && <SkillsLogos />}
+      {skills === "experience" && <Experience />}
+      {skills === "education" && <Studies />}
     </SectionWrapper>
   )
 }
