@@ -13,7 +13,7 @@ import { initReactI18next } from "react-i18next"
 import LanguageDetector from "i18next-browser-languagedetector"
 import translations from "./translations/translations.json"
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const englishTranslations = translations["en"]
 const spanishTranslations = translations["es"]
