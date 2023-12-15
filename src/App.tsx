@@ -57,27 +57,26 @@ export default function App() {
   }
 
   return (
-    <Analytics>
-      <I18nextProvider i18n={i18n}>
-        <UserPreferencesProvider>
-          <header id="home">
-            <Navbar changeLanguage={changeLanguage} language={i18n.language} />
-            <Layout>
-              <Hero />
-              <main>
-                <About />
-                <Skills />
-                <Projects />
-                {/* <Process /> */}
-                <Contact />
-              </main>
-            </Layout>
-            <footer>
-              <Footer />
-            </footer>
-          </header>
-        </UserPreferencesProvider>
-      </I18nextProvider>
-    </Analytics>
+    <I18nextProvider i18n={i18n}>
+      <Analytics />
+      <UserPreferencesProvider>
+        <header id="home">
+          <Navbar changeLanguage={changeLanguage} language={i18n.language} />
+          <Layout>
+            <Hero />
+            <main>
+              <About />
+              <Skills />
+              <Projects />
+              {/* <Process /> */}
+              <Contact />
+            </main>
+          </Layout>
+          <footer>
+            <Footer />
+          </footer>
+        </header>
+      </UserPreferencesProvider>
+    </I18nextProvider>
   )
 }
