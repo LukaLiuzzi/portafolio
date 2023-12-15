@@ -4,7 +4,6 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Layout from "./components/Layout"
 import Navbar from "./components/Navbar"
-import Process from "./components/Process"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import UserPreferencesProvider from "./contexts/UserPreferences"
@@ -13,8 +12,8 @@ import i18n from "i18next"
 import { initReactI18next } from "react-i18next"
 import LanguageDetector from "i18next-browser-languagedetector"
 import translations from "./translations/translations.json"
-import { useEffect, useState } from "react"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const englishTranslations = translations["en"]
 const spanishTranslations = translations["es"]
@@ -59,6 +58,7 @@ export default function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <Analytics />
+      <SpeedInsights />
       <UserPreferencesProvider>
         <header id="home">
           <Navbar changeLanguage={changeLanguage} language={i18n.language} />
