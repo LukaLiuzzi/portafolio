@@ -14,6 +14,7 @@ import { initReactI18next } from "react-i18next"
 import LanguageDetector from "i18next-browser-languagedetector"
 import translations from "./translations/translations.json"
 import { useEffect, useState } from "react"
+import { Analytics } from "@vercel/analytics/react"
 
 const englishTranslations = translations["en"]
 const spanishTranslations = translations["es"]
@@ -56,25 +57,27 @@ export default function App() {
   }
 
   return (
-    <I18nextProvider i18n={i18n}>
-      <UserPreferencesProvider>
-        <header id="home">
-          <Navbar changeLanguage={changeLanguage} language={i18n.language} />
-          <Layout>
-            <Hero />
-            <main>
-              <About />
-              <Skills />
-              <Projects />
-              {/* <Process /> */}
-              <Contact />
-            </main>
-          </Layout>
-          <footer>
-            <Footer />
-          </footer>
-        </header>
-      </UserPreferencesProvider>
-    </I18nextProvider>
+    <Analytics>
+      <I18nextProvider i18n={i18n}>
+        <UserPreferencesProvider>
+          <header id="home">
+            <Navbar changeLanguage={changeLanguage} language={i18n.language} />
+            <Layout>
+              <Hero />
+              <main>
+                <About />
+                <Skills />
+                <Projects />
+                {/* <Process /> */}
+                <Contact />
+              </main>
+            </Layout>
+            <footer>
+              <Footer />
+            </footer>
+          </header>
+        </UserPreferencesProvider>
+      </I18nextProvider>
+    </Analytics>
   )
 }
