@@ -107,7 +107,7 @@ const Navbar = ({
             <option
               value={item.value}
               key={item.value}
-              selected={language === item.value}
+              defaultChecked={language === item.value}
             >
               {item.label}
             </option>
