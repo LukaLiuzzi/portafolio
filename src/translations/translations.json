@@ -24,7 +24,7 @@
             },
             {
                 "title": "Desarrollador Full Stack",
-                "place": "Boceto Agencia",
+                "place": "Boceto Contenidos",
                 "date": "2021 - Presente",
                 "description": "Diseñé y desarrollé aplicaciones web de extremo a extremo, abarcando tanto el frontend como el backend, con un enfoque personalizado para satisfacer las necesidades específicas de los clientes. Colaboré de manera efectiva en equipos multidisciplinarios de desarrollo, participando en reuniones estratégicas con los clientes para comprender y cumplir con sus requisitos."
             },
@@ -55,10 +55,10 @@
                 "description": "Aprendizaje de tecnologías como Javascript, React, Node, Express, MongoDB, entre otras."
             },
             {
-                "title": "Tecnicatura Universitaria en Programación Informática",
-                "place": "UNSAM",
+                "title": "Tecnicatura Universitaria en Ciberseguridad",
+                "place": "UNSO",
                 "date": "Iniciada en 2023",
-                "description": "Tecnicatura Universitaria en Programación Informática en la Universidad Nacional de San Martín."
+                "description": "Tecnicatura Universitaria en Ciberseguridad en la Universidad Nacional Raul Scalabrini Ortiz."
             }
         ],
         "projects-list": [
@@ -66,8 +66,15 @@
                 "title": "Camino a casa",
                 "description": "Una aplicación para facilitar la adopción de mascotas donde usuarios y refugios pueden publicar y encontrar animales. Desarrollada con React, Express, TypeScript, Node y MongoDB.",
                 "url": "https://petadoption-front.vercel.app",
-                "github": "",
+                "github": "https://github.com/LukaLiuzzi/petadoption",
                 "img": "/caminoacasa.webp"
+            },
+            {
+                "title": "Papelera Manager",
+                "description": "Un Ecommerce para una papelera en el cual los clientes pueden comprar a traves de la web y los administradores pueden gestionar los productos y pedidos. Desarrollada con PHP, MySQL, HTML, CSS y JavaScript.",
+                "url": "https://papeleramanager.com.ar",
+                "github": "",
+                "img": "/papelera-manager.webp"
             },
             {
                 "title": "Aymi lova",
@@ -155,7 +162,7 @@
                 },
                 {
                     "title": "Full Stack Developer",
-                    "place": "Boceto Agencia",
+                    "place": "Boceto Contenidos",
                     "date": "2021 - Present",
                     "description": "Designed and developed end-to-end web applications, covering both frontend and backend, with a personalized approach to meet specific client needs. Effectively collaborated in multidisciplinary development teams, participating in strategic meetings with clients to understand and fulfill their requirements."
                 },
@@ -187,9 +194,9 @@
                 },
                 {
                     "title": "University Technician in Computer Programming",
-                    "place": "UNSAM",
+                    "place": "UNSO",
                     "date": "Started in 2023",
-                    "description": "University Technician in Computer Programming at the National University of San Martin."
+                    "description": "University Technician in Cibersecurity at the National University Raul Scalabrini Ortiz."
                 }
             ],
             "projects-list": [
@@ -197,8 +204,15 @@
                     "title": "Camino a casa",
                     "description": "An application to facilitate pet adoption where users and shelters can post and find animals. Developed with React, Express, TypeScript, Node, and MongoDB.",
                     "url": "https://petadoption-front.vercel.app",
-                    "github": "",
+                    "github": "https://github.com/LukaLiuzzi/petadoption",
                     "img": "/caminoacasa.webp"
+                },
+                {
+                    "title": "Papelera Manager",
+                    "description": "An Ecommerce for a stationery store where customers can buy through the web and administrators can manage products and orders. Developed with PHP, MySQL, HTML, CSS, and JavaScript.",
+                    "url": "https://papeleramanager.com.ar",
+                    "github": "",
+                    "img": "/papelera-manager.webp"
                 },
                 {
                     "title": "Aymi Lova",

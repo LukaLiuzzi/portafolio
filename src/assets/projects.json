@@ -8,6 +8,14 @@
     },
     {
         "key": 2,
+        "title": "Papelera Manager",
+        "description": "Un Ecommerce para una papelera en el cual los clientes pueden comprar a traves de la web y los administradores pueden gestionar los productos y pedidos. Desarrollada con PHP, MySQL, HTML, CSS y JavaScript.",
+        "img": "/papelera-manager.webp",
+        "github": "https://github.com/LukaLiuzzi",
+        "url": "https://papeleramanager.com.ar"
+    },
+    {
+        "key": 3,
         "title": "Aymi lova",
         "description": "Una página web desarrollada para una clienta que pinta murales y quiere mostrar su trabajo. Desarrollada con HTML, CSS y JavaScript vanilla.",
         "img": "/aymilova.webp",
@@ -15,7 +23,7 @@
         "url": "https://aymilova.vercel.app"
     },
     {
-        "key": 3,
+        "key": 4,
         "title": "RockandDolls",
         "description": "RockandDolls es un e-commerce desarrollado para una clienta que tiene un emprendimiento de ropa. Desarrollada con React y Firebase.",
         "img": "/rockanddolls.webp",
@@ -23,7 +31,7 @@
         "url": "https://galushowroom.web.app/"
     },
     {
-        "key": 4,
+        "key": 5,
         "title": "MovieFan",
         "description": "MovieFan es una página web que muestra películas catalogadas por género y permite buscar por nombre. También permite ver el tráiler de la película si está disponible. Desarrollada con HTML, CSS y JavaScript vanilla.",
         "img": "/moviefan.webp",
@@ -31,7 +39,7 @@
         "url": "https://lukaliuzzi.github.io/moviefan/"
     },
     {
-        "key": 5,
+        "key": 6,
         "title": "Whatsapp Clone",
         "description": "Un clon de Whatsapp desarrollado con NextJS y TypeScript.",
         "img": "/wsp-web.webp",
